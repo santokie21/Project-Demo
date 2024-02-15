@@ -1,7 +1,6 @@
 package io.noobi.ecommerce.service;
 
 import io.noobi.ecommerce.model.Customer;
-import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
@@ -13,7 +12,7 @@ public interface CustomerService {
 
   void addCustomer(Customer customer);
 
-  boolean updateCustomer(Long id,Customer customer);
+  boolean updateCustomer(Long id, Customer customer);
 
   boolean deleteCustomer(Long id);
 }
